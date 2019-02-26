@@ -29,7 +29,7 @@ EOF
 
 And run Container
 ```shell
-docker run -dit -p 53:53/udp -p 53:53/tcp -v {YOUR_TINYDNS_DATA_DIR}:/etc/tinydns/root adite/tinydns
+docker run -dit -p 53:53/udp -p 53:53/tcp -v {YOUR_TINYDNS_DATA_FILE}:/etc/tinydns/root/data adite/tinydns
 ```
 
 Then test DNS
